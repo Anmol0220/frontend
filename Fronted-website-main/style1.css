@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: weight 120px;;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+}
+
+#nav{
+    position:relative;
+    display: flex;
+    padding: 3vw 10vw;
+    justify-content: space-between ;
+    background-color: mediumaquamarine;
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+
+#nav a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav #centeratag{
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Hero{
+    width: 100%;
+    
+    margin-top: 15vw;
+    padding: 0vw 10vw;
+    display: flex;
+    gap: 20vw;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#sustain{
+    width: 10vw;
+   
+}
+
+#sustain p{
+    font-weight: 500;
+    opacity: .5;
+    line-height: 1;
+    margin: 10px 0;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+#sustain #susimagewrapper{
+    
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 15vw;
+    
+}
+
+#susimagewrapper img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#Ephemrel{
+    width: 40vw;
+    min-height: 42vw;
+    position: relative;
+    
+}
+
+#imgntext{
+    width: fit-content;
+    height: fit-content;
+}
+#Ephemrel img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+#Ephemrel p{
+    
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -.05vw;
+    width: 50%;
+    margin-top: 30px;
+    line-height: 1.3;
+}
+
+#Ephemrel #headings{
+    top: -16.7%;
+    left: -20%;
+    position: absolute;
+}
+
+#Ephemrel h3{
+    letter-spacing: -.4vw;
+    line-height: 1;
+    font-size:4.4vw;
+    font-weight: 400;
+    
+}
+
+#circlev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 1.5px solid #5e5e5e;
+    width: 3vw;
+    height: 3vw;  
+}
+
+#circle i{
+    color: #5c5e5e;
+}
+
+#visit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#visit h6{
+    color: #5e5e5e;
+    font-weight: 550;
+    
+}
+
+#motive{
+    margin-top: 7vw;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#motive p{
+    font-size: 1.8vw;
+    right: 0;
+    width: 85%;
+    position: relative;
+    text-align: right;
+    
+    line-height: 1.7;
+    letter-spacing: -.12vw;
+}
+
+#motive span{
+    
+    
+    display: inline-block;
+    margin: 0px 13px ;
+    margin-bottom: -12.5px;
+    border-radius: 100px;
+    
+}
+
+#onespan{
+    width: 80px;
+    height: 40px;
+    background-image: url(bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+    
+}
+
+#twospan{
+    width: 100px;
+    height: 40px;
+    background-image: url(shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 48%;
+}
+
+#threespan{
+    height: 40px;
+    width: 80px;
+    background-image: url(grass.jpg);
+    background-size: cover;
+    background-position: 0% 48%;
+}
+
+#pictures{
+    padding: 3vw;
+    padding-left:14vw;
+    padding-right: 12vw;
+    margin-top:  8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#firstpic{
+    width: 16vw;
+}
+#firstpic #picimg{
+    
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+}
+
+
+
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+#firstpic h3{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+#firstpic p{
+    opacity: .8;
+    font-size: 1vw;
+    margin-top: 10px;
+    letter-spacing: -.07vw;
+    line-height: 1;
+}
+
+#secondpic #picimg{
+    
+    width: 100%;
+    height: 36vw;
+    margin-bottom: 1vw;
+}
+#secondpic h3{
+    letter-spacing: -.07vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#secondpic{
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+*#secondpic p{
+    opacity: .8;
+    font-size: 1vw;
+    margin-top: 10px;
+    width: 90%;
+    letter-spacing: -.07vw;
+    line-height: 1;
+    text-align: right;
+}
+
+#banner{
+    width: 100%;
+    margin-top: 8vw;
+    display: flex;
+    align-items: center;
+}
+
+#bimg{
+    width: 65%;
+    height: 60vh;
+    background-color: red;
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-position: 0% 70%;
+    object-fit: cover;
+}
+
+#btext{
+    width: 35%;
+    padding: 0px 3vw;
+}
+
+#btext h2{
+    font-size: 2.8vw;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+    line-height: 1;
+    
+}
+
+#btext p{
+    width: 60%;
+    margin-top: 20px;
+    opacity: 1;
+    font-size: 1vw;
+    margin-top: 10px;
+    width: 90%;
+    letter-spacing: -.09vw;
+    line-height: 1;
+    text-align: left;
+}
+
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+#future video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    width: 100%;
+    
+}
+
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: whitesmoke;
+    padding: 1vw 2vw;
+    border-radius: 15px;
+}
+
+
+
+#ftext button{
+    opacity: .8;
+    padding: .8vw 1.8vw;
+    font-size: .6vw;
+    text-transform: capitalize;
+    letter-spacing: -.05vw;
+    border-radius: 100px;
+    border: 1px solid #c6c6c6;
+    font-weight: 800;
+    margin-top: 10px;
+    background-color: #c6c6c6;
+    
+}
+
+#ftext button a{
+    opacity: .8;
+    padding: .8vw 1.8vw;
+    font-size: .6vw;
+    text-transform: capitalize;
+    letter-spacing: -.05vw;
+    border-radius: 100px;
+    border: 1px solid #c6c6c6;
+    font-weight: 800;
+    margin-top: 10px;
+    background-color: #c6c6c6;
+    color: rgb(8, 29, 2);
+    
+}
